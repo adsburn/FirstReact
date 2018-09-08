@@ -4,9 +4,9 @@ import './../resources/react-bootstrap-table-all.min.css';
 
 const Page2ShowBootstrapTable = (props) => {
     return (<BootstrapTable data={props.dataSource} striped hover>
-                <TableHeaderColumn dataField='id' isKey>Product ID</TableHeaderColumn>
-                <TableHeaderColumn dataField='name'>Product Name</TableHeaderColumn>
-                <TableHeaderColumn dataField='value'>Product Price</TableHeaderColumn>
+                <TableHeaderColumn dataField='id' isKey>ID</TableHeaderColumn>
+                <TableHeaderColumn dataField='name'>Name</TableHeaderColumn>
+                <TableHeaderColumn dataField='value'>Value</TableHeaderColumn>
             </BootstrapTable>
     );
 }
